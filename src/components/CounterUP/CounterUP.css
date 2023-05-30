@@ -49,12 +49,12 @@
 }
 
 @media screen and (max-width: 1268px) {
-  .ScrollTrigger>div
+  .scroll_trigger_wrapper>div
   {
     min-width: 200px;
     text-align: center;
   }
-  .ScrollTrigger{
+  .scroll_trigger_wrapper{
     flex-wrap: wrap;
     row-gap: 1.5rem;
   }
