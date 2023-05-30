@@ -1,0 +1,137 @@
+.footer_container{
+    background-image: url('../../assets/Footer1.png');
+    background-size: cover;
+    background-position: center; 
+    margin-top: 5rem; 
+    background-color: black;
+  }
+  
+  .footer_content{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: rgb(0,0,0,0.4);
+      width: 100%;
+      text-align: left;
+      padding: 5rem;
+      /* padding: 3rem;
+      display: flex;
+      flex-direction: row; 
+       
+      justify-content: flex-start; */
+  }
+  
+  .footer_section1{
+      /* margin-top: 2rem; */
+      display: flex;
+      flex-direction: column;
+      margin-left: 2rem;
+  }
+  
+  .footer_subscribe {
+      width: 100%;
+      margin: 2rem 0 1rem;
+  
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .footer_subscribe input {
+      flex: 2;
+      width: 100%;
+      min-height: 50px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      background: white;
+      border: 2px solid white;
+      padding: 0 1rem;
+      outline: none;
+     min-width: 200px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+  }
+  
+  .footer_subscribe button {
+      flex: 0.6;
+      width: 100%;
+      min-height: 50px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      border: 2px solid #FF6600;
+      padding: 0 1rem;
+      color: #fff;
+      cursor: pointer;
+      outline: none;
+      background: #FF6600;
+      border-radius: 7px;
+  
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+  
+  .footer_section2{
+      display: flex;
+      flex-direction: column;
+      margin-right: 3rem;  
+      margin-top: 3rem;  
+  }
+  
+  .footer_section1 h4{
+      font-family: 'Georama';
+      font-style: normal;
+      font-weight: 500;
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 1rem;
+  }
+  
+  .footer_section1 h2{
+      font-family: 'Georama';
+      font-style: normal;
+      font-weight: 500;
+      color: #fff;
+      font-size: 29px;
+      margin-bottom: 1rem;
+      
+  }
+  
+  .footer_section2 h3{
+      font-family: 'Georama';
+      font-style: normal;
+      font-weight: 500;
+      color: #fff;
+      font-size: 25px;
+      margin-bottom: 1rem;
+      
+  }
+  
+  .footer_button{
+      display: flex;
+      flex-direction: row;
+      
+  }
+  
+  .lft{
+      margin-right: 3rem;
+  }
+  
+  .google_map{
+      border-radius: 9px;
+  }
+
+  @media screen and (max-width: 550px) {
+    .footer_content
+    {
+        padding: 0;
+
+        padding-right: 1.5rem;
+    }
+    .footer_section2
+    {
+        padding-inline: 1.5rem;
+    }
+  }

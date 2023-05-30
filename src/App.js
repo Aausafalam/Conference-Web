@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Nav_Bar from './components/Nav_Bar/Nav_Bar';
 import Welcome from './components/Welcome/Welcome';
 import Dates from './components/Dates/Dates';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Welcome/>
       <CounterUP/>
       <Dates/>
+      <Footer/>
         </>}/>
       </Routes>
       
