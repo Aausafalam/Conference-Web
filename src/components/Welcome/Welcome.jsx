@@ -2,7 +2,9 @@ import React from 'react'
 import welcomeimg from '../../assets/welcomegrp.png'
 import './Welcome.css'
 
+
 const Welcome = () => {
+
   return (
     <div className="welcome_container" id="welcome">
         <div className="welcome_content">

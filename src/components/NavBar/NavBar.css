@@ -5,6 +5,7 @@
    top: 0;
 background-color: #f5f5f5;
 z-index: 100000;
+display: flex;
 }
 
 .LMS__navbar-links {
@@ -88,6 +89,7 @@ z-index: 100000;
 .LMS__navbar-menu_container p {
     margin: 1rem 0;
 }
+.LMS__navbar{}
 
 .LMS__navbar-menu_container-links-sign {
     display: none;

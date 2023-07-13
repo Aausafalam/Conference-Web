@@ -4,8 +4,11 @@ import footerlogo from '../../assets/footerlogo.svg'
 import twitter from '../../assets/twitter.svg'
 import facebook from '../../assets/facebook.svg'
 import linkedin from '../../assets/linkedin.svg'
+import allRights from "../../assets/allRightIcon.svg"
+
 
 const Footer = () => {
+
   return (
     <div className="footer_container">
       <div className="footer_content">
@@ -19,16 +22,19 @@ const Footer = () => {
           <div className="footer_map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.4127336728034!2d77.96430017431743!3d27.14330135014507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974777724a119dd%3A0xcee961fc18d7657d!2sJ.p%20Palace!5e0!3m2!1sen!2sin!4v1685444264063!5m2!1sen!2sin" 
               width="100%" 
-              height="300" 
-              style={{border: "0"}}
+              height="180" 
+              style={{border: "0",maxWidth:"440px"}}
               allowfullscreen="" 
               loading="lazy" 
               referrerpolicy="no-referrer-when-downgrade"
               className="google_map">
             </iframe>
           </div>
-          {/* <img src={map} alt="map"/> */}
+            <div className="all_rights_reserve">
 
+  <img src={allRights} alt="" />
+ &nbsp; <p>2023 All Rights Reserved</p>
+            </div>
         </div>
 
 
@@ -57,3 +63,4 @@ const Footer = () => {
 }
 
 export default Footer
+

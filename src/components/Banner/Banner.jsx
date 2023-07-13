@@ -1,12 +1,10 @@
 import React from 'react'
 import './Banner.css'
-import agra from '../../assets/agra.png'
-import taj from '../../assets/taj.png'
-import jp from '../../assets/jp_palace.png'
 import ss from '../../assets/Group 1.png'
 
 
 const Banner = () => {
+
   return (
     <div className="banner_container ">
         <div className="banner_content">
@@ -33,9 +31,6 @@ const Banner = () => {
         </div>
         <div className="banner_image">
             <img src={ss} alt='' />
-            {/* <img src={agra} alt='' className="image1"/> */}
-            {/* <img src={taj} alt='' className="image2"/>
-            <img src={jp} alt='' className="image3"/> */}
         </div>
 
 

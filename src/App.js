@@ -1,28 +1,17 @@
 import { Routes,Route } from 'react-router';
+import Home from './Pages/Home/Home';
 import './App.css';
-import Banner from './components/Banner/Banner';
-import CounterUP from './components/CounterUP/CounterUP';
-import Header from './components/Header/Header';
-import Nav_Bar from './components/Nav_Bar/Nav_Bar';
-import Welcome from './components/Welcome/Welcome';
-import Dates from './components/Dates/Dates';
-import Footer from './components/Footer/Footer';
+
 
 
 function App() {
+
+
   return (
     <div className="App">
 
       <Routes>
-        <Route path="/" element={<>
-          <Header/>
-      <Nav_Bar/>
-      <Banner/>
-      <Welcome/>
-      <CounterUP/>
-      <Dates/>
-      <Footer/>
-        </>}/>
+        <Route path="/" element={<Home/>}/>
       </Routes>
       
     </div>

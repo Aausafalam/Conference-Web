@@ -2,8 +2,10 @@
     background-image: url('../../assets/Footer1.png');
     background-size: cover;
     background-position: center; 
-    margin-top: 5rem; 
+    /* margin-top: 5rem;  */
     background-color: black;
+    width: 99vw;
+    height: 75vh;
   }
   
   .footer_content{
@@ -16,11 +18,10 @@
       width: 100%;
       text-align: left;
       padding: 5rem;
-      /* padding: 3rem;
-      display: flex;
-      flex-direction: row; 
-       
-      justify-content: flex-start; */
+      padding-top: 2rem;
+      height: 75vh;
+      overflow: hidden;
+    
   }
   
   .footer_section1{
@@ -68,7 +69,7 @@
       outline: none;
       background: #FF6600;
       border-radius: 7px;
-  
+      margin-left: -0.5rem;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
   }
@@ -85,7 +86,7 @@
       font-style: normal;
       font-weight: 500;
       color: #fff;
-      font-size: 20px;
+      font-size: 1.1rem;
       margin-bottom: 1rem;
   }
   
@@ -94,11 +95,15 @@
       font-style: normal;
       font-weight: 500;
       color: #fff;
-      font-size: 29px;
+      font-size: 1.35rem;
       margin-bottom: 1rem;
       
   }
-  
+  .footer_section1 img
+  {
+    max-width: 330px;
+    margin-top: 1.5vh;
+  }
   .footer_section2 h3{
       font-family: 'Georama';
       font-style: normal;
